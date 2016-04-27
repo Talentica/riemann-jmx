@@ -1,6 +1,7 @@
-# riemann-jmx-clj
 
-A Clojure clone of riemann-jmx with states and systematic service name support which is forked from riemann-jmx repository.
+# riemann-jmx-clj (Hopper)
+
+Clojure client to fetch jmx events and pass it to riemann. It is based on riemann-jmx java library
 
 ## Building
 
@@ -22,3 +23,11 @@ Supports composite mbeans as well, unlike the current riemann-jmx.
 See the kafka.yml for an example of how to write a configuration file with [ok,warning,critical] support for riemann.
 
 The even will be sent only once. A sample tomcat.yaml and kafka.yaml file has been attached. Also mapping can be provided between service name and Mbean object.
+
+
+## License
+
+Copyright © 2013-2015 Two Sigma
+Copyright © 2016 Talentica
+
+Distributed under the Eclipse Public License version 1.0
